@@ -1,2 +1,2 @@
-# Teacher Nicole v3
-Adds secure administrator student management and invokes the Supabase create-student Edge Function.
+# Teacher Nicole v3.1
+Authentication fix: explicitly sends the current Supabase user access token when invoking create-student.
