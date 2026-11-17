@@ -1,4 +1,2 @@
-# Teacher Nicole v2
-Public website plus Supabase-backed private portal foundation.
-
-Supabase credentials are supplied by the existing Vercel Marketplace integration. Do not commit secret keys.
+# Teacher Nicole v3
+Adds secure administrator student management and invokes the Supabase create-student Edge Function.
