@@ -1,9 +1,4 @@
-# Teacher Nicole
-Personal website for Teacher Nicole.
+# Teacher Nicole v2
+Public website plus Supabase-backed private portal foundation.
 
-## Local development
-npm install
-npm run dev
-
-## Build
-npm run build
+Supabase credentials are supplied by the existing Vercel Marketplace integration. Do not commit secret keys.
