@@ -1,2 +1,2 @@
-# Teacher Nicole v3.1
-Authentication fix: explicitly sends the current Supabase user access token when invoking create-student.
+# Teacher Nicole v4
+Adds password recovery routing and role-specific student dashboard foundation.
