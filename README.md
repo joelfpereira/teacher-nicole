@@ -1,3 +1,3 @@
-## Teacher Nicole v5.5
+### Teacher Nicole v5.6
 
-Adds Monday-to-Sunday weekly lesson calendar with previous/today/next navigation, responsive mobile scrolling, lesson lifecycle styling, admin editing/actions and student-isolated lesson viewing. Preserves V5.4.1 private teacher-note behavior.
+Adds recurring lesson creation to the validated V5.5 weekly calendar. Nicole can create one-off, weekly, or every-two-weeks lessons through an end date. Each generated occurrence remains an independent lesson, linked by recurrence_id, so individual occurrences can still be edited, completed, or cancelled. Preserves student isolation, private teacher notes, and mobile weekly view.
