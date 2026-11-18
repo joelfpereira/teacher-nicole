@@ -1,2 +1,2 @@
-# Teacher Nicole v5.1
-Private student materials plus mobile navigation fix: Login remains visible on phones and the large header contact CTA is hidden on small screens.
+# Teacher Nicole v5.2
+Adds admin-triggered student password setup email with exact /reset-password redirect. Requires public.students.email column.
