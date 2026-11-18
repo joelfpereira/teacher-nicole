@@ -1,3 +1,3 @@
-## Teacher Nicole v5.4
+## Teacher Nicole v5.4.1
 
-Adds lesson editing/rescheduling and the scheduled/completed/cancelled lifecycle while preserving V5.3 student isolation, password setup, private materials and lesson calendar.
+Fixes private teacher-note display for Nicole/admin only, while preserving V5.4 lesson editing, lifecycle and student privacy.
