@@ -1,3 +1,3 @@
-#### Teacher Nicole v5.6.1
+#### Teacher Nicole v5.6.2
 
-Adds a confirmation step before lesson cancellation. For recurring lessons, the confirmation explicitly states that only the selected occurrence will be cancelled and the rest of the series will remain unchanged. Preserves all V5.6 recurrence, V5.5 weekly calendar, student isolation and private-note behavior.
+Adds confirmation before marking a lesson completed and retains V5.6.1 cancellation confirmation. For recurring lessons, both confirmations state that only the selected occurrence changes. Preserves recurring lessons, weekly calendar, student isolation, private teacher notes and mobile behavior.
