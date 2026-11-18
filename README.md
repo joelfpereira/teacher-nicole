@@ -1,2 +1,2 @@
-# Teacher Nicole v4
-Adds password recovery routing and role-specific student dashboard foundation.
+# Teacher Nicole v5
+Adds private per-student material upload, listing, and authenticated download with Supabase Storage RLS.
