@@ -1,3 +1,3 @@
-## Teacher Nicole v5.4.1
+## Teacher Nicole v5.5
 
-Fixes private teacher-note display for Nicole/admin only, while preserving V5.4 lesson editing, lifecycle and student privacy.
+Adds Monday-to-Sunday weekly lesson calendar with previous/today/next navigation, responsive mobile scrolling, lesson lifecycle styling, admin editing/actions and student-isolated lesson viewing. Preserves V5.4.1 private teacher-note behavior.
