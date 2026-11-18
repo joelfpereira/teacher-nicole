@@ -1,3 +1,3 @@
-### Teacher Nicole v5.6
+#### Teacher Nicole v5.6.1
 
-Adds recurring lesson creation to the validated V5.5 weekly calendar. Nicole can create one-off, weekly, or every-two-weeks lessons through an end date. Each generated occurrence remains an independent lesson, linked by recurrence_id, so individual occurrences can still be edited, completed, or cancelled. Preserves student isolation, private teacher notes, and mobile weekly view.
+Adds a confirmation step before lesson cancellation. For recurring lessons, the confirmation explicitly states that only the selected occurrence will be cancelled and the rest of the series will remain unchanged. Preserves all V5.6 recurrence, V5.5 weekly calendar, student isolation and private-note behavior.
