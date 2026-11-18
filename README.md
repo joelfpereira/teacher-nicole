@@ -1,2 +1,2 @@
-# Teacher Nicole v5.2
-Adds admin-triggered student password setup email with exact /reset-password redirect. Requires public.students.email column.
+# Teacher Nicole v5.3
+Adds lesson calendar while preserving V5.2 password setup and private materials.
