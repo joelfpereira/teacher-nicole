@@ -46,3 +46,9 @@
 .calendarEdgeIndicators{position:sticky;left:64px;right:0;top:54px;bottom:0;z-index:30;pointer-events:none;width:calc(100% - 64px)}
 .edgeRow{position:absolute;left:0;right:0;display:grid;grid-template-columns:repeat(7,minmax(140px,1fr));pointer-events:none}.edgeRow.top{top:4px}.edgeRow.bottom{bottom:6px}.edgeRow>div{display:flex;justify-content:center;min-width:0}.edgeIndicator{pointer-events:auto;border:0;border-radius:999px;padding:4px 7px;font-size:.62rem;font-weight:800;color:#075985;background:rgba(224,242,254,.97);box-shadow:0 1px 5px rgba(15,23,42,.22);cursor:pointer;white-space:nowrap}.edgeIndicator:hover{background:#bae6fd}.edgeIndicator.later{color:#075985}
 @media(max-width:800px){.calendarEdgeIndicators{left:54px;width:1050px}.edgeRow{grid-template-columns:repeat(7,150px)}}
+
+/* V5.9.5 indicators are siblings of the scroll area, pinned to its viewport */
+.calendarViewport{position:relative}
+.calendarViewport>.timeCalendar{max-height:630px}
+.calendarViewport>.calendarEdgeIndicators{position:absolute;left:64px;right:0;z-index:50;display:grid;grid-template-columns:repeat(7,minmax(140px,1fr));pointer-events:none;padding:0 4px}.calendarViewport>.calendarEdgeIndicators.top{top:60px}.calendarViewport>.calendarEdgeIndicators.bottom{bottom:8px}.calendarViewport>.calendarEdgeIndicators>div{display:flex;justify-content:center;min-width:0}.calendarViewport .edgeIndicator{pointer-events:auto;border:0;border-radius:999px;padding:4px 7px;font-size:.62rem;font-weight:800;color:#075985;background:rgba(224,242,254,.98);box-shadow:0 1px 5px rgba(15,23,42,.22);cursor:pointer;white-space:nowrap}
+@media(max-width:800px){.calendarViewport{overflow:hidden}.calendarViewport>.calendarEdgeIndicators{left:54px;right:auto;width:1050px;grid-template-columns:repeat(7,150px)}}
