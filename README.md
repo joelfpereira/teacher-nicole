@@ -1,3 +1,3 @@
-# Teacher Nicole v5.9
+# Teacher Nicole v5.9.1
 
-Redesigns the validated V5.8 weekly calendar as an Outlook-style time grid. Lessons align by start time across weekdays, duration controls card height, compact cards show time/title/student and small status/recurrence/Outlook badges, and opening a card reveals full details plus admin actions. Includes a current-time indicator and horizontally scrollable mobile layout. No database or Microsoft changes are required.
+Refines the V5.9 Outlook-style calendar to a more compact 12:00-21:00 visible teaching window on desktop and mobile, using a 64 px/hour scale. Time alignment, duration-based lesson height, compact cards, lesson detail view, recurrence, confirmations, student isolation and V5.8 Outlook creation sync are preserved.
