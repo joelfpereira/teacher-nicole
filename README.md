@@ -1,3 +1,3 @@
-# Teacher Nicole v5.9.3
+# Teacher Nicole v5.9.4
 
-Fixes the V5.9.2 off-screen lesson indicators. Earlier/later counts now use the calendar's real scrollTop and visible client height, update continuously while scrolling, and indicator navigation targets the nearest off-screen lesson in the chosen direction. Full 24-hour scrolling and the 12:00 initial viewport are preserved.
+Fixes off-screen lesson indicators by rendering them as a dedicated overlay pinned to the visible top and bottom edges of the calendar viewport, rather than sticky elements inside the 24-hour day columns. Per-day earlier/later counts recalculate on every scroll and the buttons navigate to the nearest hidden lesson. Full 00:00-23:59 scrolling, noon initial position and all existing V5.9/V5.8 features are preserved.

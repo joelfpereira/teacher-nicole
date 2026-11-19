@@ -40,3 +40,9 @@
 .offscreenIndicator.later{top:auto;bottom:8px;margin-top:0;float:none;transform:translateY(calc(var(--calendar-view-height, 0px)))}
 
 .offscreenIndicator.later{position:sticky;bottom:8px;transform:none;margin-top:calc(100% - 28px)}
+
+/* V5.9.4 reliable viewport-edge indicators */
+.timeCalendar{position:relative}
+.calendarEdgeIndicators{position:sticky;left:64px;right:0;top:54px;bottom:0;z-index:30;pointer-events:none;width:calc(100% - 64px)}
+.edgeRow{position:absolute;left:0;right:0;display:grid;grid-template-columns:repeat(7,minmax(140px,1fr));pointer-events:none}.edgeRow.top{top:4px}.edgeRow.bottom{bottom:6px}.edgeRow>div{display:flex;justify-content:center;min-width:0}.edgeIndicator{pointer-events:auto;border:0;border-radius:999px;padding:4px 7px;font-size:.62rem;font-weight:800;color:#075985;background:rgba(224,242,254,.97);box-shadow:0 1px 5px rgba(15,23,42,.22);cursor:pointer;white-space:nowrap}.edgeIndicator:hover{background:#bae6fd}.edgeIndicator.later{color:#075985}
+@media(max-width:800px){.calendarEdgeIndicators{left:54px;width:1050px}.edgeRow{grid-template-columns:repeat(7,150px)}}
