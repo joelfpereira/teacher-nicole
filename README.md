@@ -1,3 +1,3 @@
-# Teacher Nicole v5.11.2
+# Teacher Nicole v5.11.3
 
-Changes student dashboard lesson interactions so Next lesson and Recent lesson cards open a student-safe lesson-details popup directly on the dashboard. The popup shows date, time, location, status, lesson summary and homework, while private teacher notes, Outlook information and admin actions remain excluded. The calendar remains available separately via Open calendar.
+Hotfix for the V5.11.2 Nicole/admin Students page blank screen. Removes the accidental Calendar-only initialLessonId/setSelectedLesson effect from StudentsPage. Student dashboard direct lesson popups, V5.10 lesson content, V5.9.7-safe calendar and V5.8 Outlook creation sync are otherwise unchanged.
