@@ -1,3 +1,3 @@
-# Teacher Nicole v5.13.1
+# Teacher Nicole v5.14
 
-Hotfix for the V5.13 Materials overview. The profiles table does not contain an email column, so the Materials page now queries only the existing id and full_name fields. All V5.13 dashboard/materials behavior and V5.12.1 functionality are otherwise unchanged.
+Stable lesson-material release based on the uploaded V5.13.1 production baseline. Lesson details support linking existing per-student materials through lesson_materials; students can access linked materials through their lesson details while admin can attach/remove links without deleting source material. Includes V5.13.1 Materials overview hotfix and all prior calendar, lesson-content, student-dashboard, privacy, recurrence and Outlook creation-sync behavior.
