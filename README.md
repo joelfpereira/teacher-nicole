@@ -1,3 +1,3 @@
-# Teacher Nicole v5.13
+# Teacher Nicole v5.13.1
 
-Admin dashboard cleanup on validated V5.12.1. Materials is now a functional admin destination with an all-materials overview and student filter. The standalone Homework card is removed because homework already lives in lessons and the student dashboard. All V5.12.1 behavior is preserved.
+Hotfix for the V5.13 Materials overview. The profiles table does not contain an email column, so the Materials page now queries only the existing id and full_name fields. All V5.13 dashboard/materials behavior and V5.12.1 functionality are otherwise unchanged.
