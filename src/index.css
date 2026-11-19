@@ -47,3 +47,6 @@
 /* V5.9.7 safe horizontal alignment */
 .offscreenRail{display:grid!important;grid-template-columns:repeat(7,minmax(0,1fr));justify-content:stretch!important}.offscreenRail button{justify-self:center;max-width:calc(100% - 8px)}
 @media(max-width:800px){.offscreenRail{grid-template-columns:repeat(7,150px)!important}}
+
+/* V5.10 lesson content */
+.lessonContentBlock{margin-top:12px;padding:14px 16px;border-radius:12px}.lessonContentBlock strong{display:block;margin-bottom:6px;color:#064e3b}.lessonContentBlock p{margin:0;white-space:pre-wrap;line-height:1.55}.summaryBlock{background:#f0fdf4;border:1px solid #bbf7d0}.homeworkBlock{background:#eff6ff;border:1px solid #bfdbfe}.formGrid label small{font-weight:500;color:#64748b}

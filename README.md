@@ -1,3 +1,3 @@
-# Teacher Nicole v5.9.7 safe
+# Teacher Nicole v5.10
 
-Starts from the deployed working V5.9.6 code and changes only horizontal placement of the existing earlier/later indicator, placing it in the weekday column of the nearest hidden lesson.
+Adds student-visible lesson summary and homework to the validated V5.9.7-safe baseline. Private teacher notes remain admin-only. Calendar behavior and V5.8 Outlook creation sync are preserved.
