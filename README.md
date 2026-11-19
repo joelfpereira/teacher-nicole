@@ -1,3 +1,3 @@
-# Teacher Nicole v5.14
+# Teacher Nicole v5.15
 
-Stable lesson-material release based on the uploaded V5.13.1 production baseline. Lesson details support linking existing per-student materials through lesson_materials; students can access linked materials through their lesson details while admin can attach/remove links without deleting source material. Includes V5.13.1 Materials overview hotfix and all prior calendar, lesson-content, student-dashboard, privacy, recurrence and Outlook creation-sync behavior.
+Adds Outlook update synchronization to the validated V5.14 production baseline. When Nicole saves changes to a lesson already linked through outlook_event_id, the frontend calls the authenticated outlook-update-event Edge Function, which PATCHes the existing Microsoft Graph event and records outlook_updated_at. Unsynced lessons save normally without a Microsoft call. If the lesson save succeeds but Outlook fails, Nicole receives a clear warning and the lesson change is retained. Lesson materials, student dashboard, privacy, calendar, recurrence, lifecycle confirmations and one-off Outlook creation sync are preserved.
