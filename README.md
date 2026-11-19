@@ -1,3 +1,3 @@
-# Teacher Nicole v5.9.7 build fix 2
+# Teacher Nicole v5.9.7 safe
 
-Built from the working V5.9.6 baseline. Only the hidden-lesson rails are changed: they are seven-column grids aligned with Monday-Sunday, with independent earlier/later indicators per day.
+Starts from the deployed working V5.9.6 code and changes only horizontal placement of the existing earlier/later indicator, placing it in the weekday column of the nearest hidden lesson.

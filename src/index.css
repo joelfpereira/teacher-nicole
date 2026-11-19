@@ -44,8 +44,6 @@
 /* V5.9.6 clean viewport rails for hidden lessons */
 .calendarViewport{position:relative}.calendarViewport>.timeCalendar{max-height:630px}.offscreenRail{position:absolute;left:64px;right:0;z-index:60;display:flex;justify-content:center;pointer-events:none}.offscreenRail.top{top:58px}.offscreenRail.bottom{bottom:8px}.offscreenRail button{pointer-events:auto;border:1px solid #7dd3fc;border-radius:999px;background:rgba(240,249,255,.97);color:#075985;padding:5px 12px;font-size:.68rem;font-weight:800;box-shadow:0 2px 8px rgba(15,23,42,.12);cursor:pointer}.offscreenRail button:hover{background:#e0f2fe}@media(max-width:800px){.offscreenRail{left:54px;width:1050px;right:auto;justify-content:flex-start;padding-left:8px}}
 
-/* V5.9.7 horizontal day alignment only */
-.offscreenRail{display:grid!important;grid-template-columns:repeat(7,minmax(0,1fr));justify-content:stretch!important;padding:0!important}
-.offscreenRail .railDay{display:flex;align-items:center;justify-content:center;min-width:0;pointer-events:none}
-.offscreenRail .railDay button{pointer-events:auto;max-width:calc(100% - 8px);padding:4px 7px;font-size:.61rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-@media(max-width:800px){.offscreenRail{grid-template-columns:repeat(7,150px)!important}.offscreenRail .railDay{width:150px}}
+/* V5.9.7 safe horizontal alignment */
+.offscreenRail{display:grid!important;grid-template-columns:repeat(7,minmax(0,1fr));justify-content:stretch!important}.offscreenRail button{justify-self:center;max-width:calc(100% - 8px)}
+@media(max-width:800px){.offscreenRail{grid-template-columns:repeat(7,150px)!important}}
