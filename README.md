@@ -1,3 +1,3 @@
-###### Teacher Nicole v5.8
+# Teacher Nicole v5.9
 
-Adds creation-only Outlook calendar synchronization for new one-off lessons. After a lesson is inserted into Supabase, the authenticated admin calls the server-side outlook-create-event Edge Function; the Microsoft event ID is stored on the lesson and synced lessons show an admin-only Outlook synced badge. Recurring lessons, edits, completions, cancellations, historical lessons and student behavior remain unchanged.
+Redesigns the validated V5.8 weekly calendar as an Outlook-style time grid. Lessons align by start time across weekdays, duration controls card height, compact cards show time/title/student and small status/recurrence/Outlook badges, and opening a card reveals full details plus admin actions. Includes a current-time indicator and horizontally scrollable mobile layout. No database or Microsoft changes are required.
