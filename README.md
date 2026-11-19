@@ -1,3 +1,3 @@
-##### Teacher Nicole v5.7
+###### Teacher Nicole v5.8
 
-Adds the first Microsoft 365 Outlook connection UI to the validated V5.6.2 baseline. Nicole/admin can securely start the OAuth flow through the Supabase `outlook-auth-start` Edge Function, and the dashboard displays the connected/error callback result. No Microsoft credentials or tokens are stored in frontend code, and calendar event synchronization is not enabled yet.
+Adds creation-only Outlook calendar synchronization for new one-off lessons. After a lesson is inserted into Supabase, the authenticated admin calls the server-side outlook-create-event Edge Function; the Microsoft event ID is stored on the lesson and synced lessons show an admin-only Outlook synced badge. Recurring lessons, edits, completions, cancellations, historical lessons and student behavior remain unchanged.
