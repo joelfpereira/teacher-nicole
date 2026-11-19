@@ -1,3 +1,3 @@
-# Teacher Nicole v5.9.1
+# Teacher Nicole v5.9.2
 
-Refines the V5.9 Outlook-style calendar to a more compact 12:00-21:00 visible teaching window on desktop and mobile, using a 64 px/hour scale. Time alignment, duration-based lesson height, compact cards, lesson detail view, recurrence, confirmations, student isolation and V5.8 Outlook creation sync are preserved.
+Keeps the compact Outlook-style viewport while restoring a full 00:00-23:59 scrollable day. The calendar initially opens around 12:00, all seven weekdays share one vertical time scroll, and per-day earlier/later indicators flag lessons outside the current viewport and scroll toward those lessons when selected. V5.9.1 layout, V5.8 Outlook creation sync, recurrence, confirmations, student isolation and lesson details are preserved.
