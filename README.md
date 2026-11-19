@@ -1,3 +1,3 @@
-# Teacher Nicole v5.12
+# Teacher Nicole v5.12.1
 
-Built from the production V5.11.3 hotfix baseline. Adds secure lesson-material linking through the new lesson_materials table. Nicole can link or remove materials belonging to the lesson's assigned student; students can view and open/download linked materials from lesson details and dashboard lesson popups. Existing storage, RLS isolation, calendar, lesson content, student dashboard and Outlook creation sync are preserved.
+CSS-only stacking hotfix on top of V5.12. Calendar earlier/later lesson indicators now remain behind the lesson modal and its dark backdrop. Lesson materials, V5.11.3 hotfix behavior, lesson content, student isolation, calendar behavior, recurrence, confirmations and Outlook creation sync are unchanged.
