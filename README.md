@@ -1,5 +1,3 @@
-# Teacher Nicole v5.9.2
+# Teacher Nicole v5.9.3
 
-Keeps the compact Outlook-style viewport while restoring a full 00:00-23:59 scrollable day. The calendar initially opens around 12:00, all seven weekdays share one vertical time scroll, and per-day earlier/later indicators flag lessons outside the current viewport and scroll toward those lessons when selected. V5.9.1 layout, V5.8 Outlook creation sync, recurrence, confirmations, student isolation and lesson details are preserved.
-
-Hotfix: adds the missing React useRef import required by the calendar scroll controller.
+Fixes the V5.9.2 off-screen lesson indicators. Earlier/later counts now use the calendar's real scrollTop and visible client height, update continuously while scrolling, and indicator navigation targets the nearest off-screen lesson in the chosen direction. Full 24-hour scrolling and the 12:00 initial viewport are preserved.

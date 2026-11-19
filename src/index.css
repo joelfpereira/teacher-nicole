@@ -32,3 +32,11 @@
 .dayColumn{background-size:100% 64px}
 .offscreenIndicator{position:sticky;z-index:10;left:6px;width:calc(100% - 12px);border:0;border-radius:999px;padding:4px 6px;font-size:.62rem;font-weight:800;color:#075985;background:rgba(224,242,254,.96);box-shadow:0 1px 4px rgba(15,23,42,.18);cursor:pointer}.offscreenIndicator.earlier{top:60px}.offscreenIndicator.later{top:calc(100vh - 42px);float:left;margin-top:540px}
 @media(max-width:800px){.timeCalendar{max-height:630px}.offscreenIndicator.earlier{top:60px}.offscreenIndicator.later{margin-top:540px}}
+
+/* V5.9.3 off-screen indicator positioning fix */
+.dayColumn{overflow:visible}
+.offscreenIndicator{position:sticky;display:block;z-index:12;margin-left:6px;width:calc(100% - 12px)}
+.offscreenIndicator.earlier{top:60px;margin-top:4px;float:none}
+.offscreenIndicator.later{top:auto;bottom:8px;margin-top:0;float:none;transform:translateY(calc(var(--calendar-view-height, 0px)))}
+
+.offscreenIndicator.later{position:sticky;bottom:8px;transform:none;margin-top:calc(100% - 28px)}
