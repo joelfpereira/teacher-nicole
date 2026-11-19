@@ -1,3 +1,3 @@
-# Teacher Nicole v5.11
+# Teacher Nicole v5.11.1
 
-Adds a student learning dashboard on top of validated V5.10. Students see their next scheduled lesson with date/time/location, current homework from that lesson, and up to three recent lessons with visible lesson summaries. Open lesson/calendar actions lead into the existing privacy-safe calendar. No database or Microsoft changes are required.
+Polishes the validated V5.11 student dashboard: removes the obsolete My homework / Coming next card, makes each recent lesson card directly open that lesson, and makes Next lesson > Open lesson open the specific lesson in Calendar rather than only navigating to the calendar. Existing privacy, lesson content, calendar, recurrence and Outlook creation sync are preserved.
