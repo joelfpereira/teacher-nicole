@@ -1,3 +1,3 @@
-# Teacher Nicole v5.9.6
+# Teacher Nicole v5.9.7
 
-Replaces the experimental per-day off-screen indicator overlays with clean Outlook-style viewport rails. The calendar remains a full 00:00-23:59 grid, initially positioned around 12:00, with a compact viewport. A small top rail reports lessons earlier than the visible range and a bottom rail reports lessons later than the visible range; both update from the real scroll position and jump to the nearest hidden lesson. No overlay is drawn over a weekday column.
+Fixes horizontal placement of hidden-lesson indicators. The top and bottom rails are now seven-column grids aligned exactly with Monday-Sunday; each day independently shows its own earlier/later count above or below that same day column. The indicators remain small viewport-edge controls and never cover a full day column.
