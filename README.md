@@ -1,4 +1,3 @@
-# Teacher Nicole v5.11.3
+# Teacher Nicole v5.12
 
-Hotfix for the V5.11.2 Nicole/admin Students page blank screen. Removes the accidental Calendar-only initialLessonId/setSelectedLesson effect from StudentsPage. Student dashboard direct lesson popups, V5.10 lesson content, V5.9.7-safe calendar and V5.8 Outlook creation sync are otherwise unchanged.
-
+Built from the production V5.11.3 hotfix baseline. Adds secure lesson-material linking through the new lesson_materials table. Nicole can link or remove materials belonging to the lesson's assigned student; students can view and open/download linked materials from lesson details and dashboard lesson popups. Existing storage, RLS isolation, calendar, lesson content, student dashboard and Outlook creation sync are preserved.
