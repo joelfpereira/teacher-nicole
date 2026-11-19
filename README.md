@@ -1,3 +1,3 @@
-# Teacher Nicole v5.9.7
+# Teacher Nicole v5.9.7 build fix 2
 
-Fixes horizontal placement of hidden-lesson indicators. The top and bottom rails are now seven-column grids aligned exactly with Monday-Sunday; each day independently shows its own earlier/later count above or below that same day column. The indicators remain small viewport-edge controls and never cover a full day column.
+Built from the working V5.9.6 baseline. Only the hidden-lesson rails are changed: they are seven-column grids aligned with Monday-Sunday, with independent earlier/later indicators per day.
