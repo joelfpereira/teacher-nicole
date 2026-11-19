@@ -1,3 +1,3 @@
-# Teacher Nicole v5.12.1
+# Teacher Nicole v5.13
 
-CSS-only stacking hotfix on top of V5.12. Calendar earlier/later lesson indicators now remain behind the lesson modal and its dark backdrop. Lesson materials, V5.11.3 hotfix behavior, lesson content, student isolation, calendar behavior, recurrence, confirmations and Outlook creation sync are unchanged.
+Admin dashboard cleanup on validated V5.12.1. Materials is now a functional admin destination with an all-materials overview and student filter. The standalone Homework card is removed because homework already lives in lessons and the student dashboard. All V5.12.1 behavior is preserved.
