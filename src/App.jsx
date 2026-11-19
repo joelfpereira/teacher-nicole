@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react';
+import React,{useEffect,useState,useRef} from 'react';
 import {BookOpen,MessageCircle,Sprout,Target,ArrowRight,GraduationCap,LogIn,LogOut,CalendarDays,Users,FolderOpen,ClipboardList,Plus,Search,X,UserRound,Upload,Download,FileText,MapPin,Cloud} from 'lucide-react';
 import {supabase,configured} from './supabase';
 const lessonCards=[{icon:BookOpen,title:'School Support',text:"Need some extra help? Let's work through difficult topics and strengthen the basics."},{icon:MessageCircle,title:"Let's Talk English",text:'Build vocabulary, pronunciation and confidence through conversation.'},{icon:Sprout,title:'Improve Your English',text:'Grammar, vocabulary, reading, writing, listening and speaking, adapted to your level.'},{icon:Target,title:'Your Goal, Your Lessons',text:"Tell me what you'd like to achieve and we'll build the lessons around it."}];
