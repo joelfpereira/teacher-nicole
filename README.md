@@ -1,3 +1,7 @@
-## Teacher Nicole v5.18.2
+# Teacher Nicole v1.0
 
-Lesson-form lifecycle hardening on V5.18.1. Successful creation/edit closes the lesson modal, resets all fields, refreshes the calendar, and then surfaces any Outlook warning on the page. Closing with X discards unsaved values; + New lesson always begins from clean defaults. External-link materials, Nicole’s Space, overlap layout, RLS behavior and Outlook create/update/cancel lifecycle are preserved.
+First production release, promoted from the validated V5.18.2 release-candidate baseline.
+
+Includes secure admin/student authentication and Supabase RLS isolation; student management; lesson summaries, homework and private teacher notes; file and external-link materials; lesson-material linking; student learning dashboard; full-day Outlook-style weekly calendar with hidden-lesson indicators and overlap handling; local weekly/biweekly recurrence; clean lesson-form lifecycle; and one-off Outlook create/update/cancel synchronization.
+
+Recurring-series Outlook synchronization is intentionally deferred beyond v1.0.
