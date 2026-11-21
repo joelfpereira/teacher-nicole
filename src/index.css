@@ -71,3 +71,6 @@ button.recentLessonCard{appearance:none;width:100%;font:inherit;color:inherit;te
 
 /* V5.17 Outlook status hardening */
 .outlookConnectionState{display:inline-flex;align-items:center;gap:6px;margin-right:5px;color:#166534;font-weight:800}.outlookConnectionState i{display:inline-block;width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 0 3px #dcfce7}.secondaryAction{white-space:nowrap}.outlookDetailState{display:inline-flex;align-items:center;gap:6px;font-weight:700;color:#0369a1}.outlookDetailState::before{content:'';width:7px;height:7px;border-radius:50%;background:#38bdf8}.outlookDetailState.updated{color:#166534}.outlookDetailState.updated::before{background:#22c55e}.outlookDetailState.cancelled{color:#991b1b}.outlookDetailState.cancelled::before{background:#ef4444}.outlookDetailState.notSynced{color:#64748b}.outlookDetailState.notSynced::before{background:#94a3b8}
+
+/* V5.18 overlapping lesson layout */
+.compactLesson{min-width:0}.compactLesson strong,.compactStudent{min-width:0}.compactLesson:focus-visible{outline:2px solid #0f766e;outline-offset:1px;z-index:8}

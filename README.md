@@ -1,3 +1,3 @@
-# Teacher Nicole v5.17
+# Teacher Nicole v5.18
 
-Outlook status hardening on the validated V5.16 baseline. The admin dashboard now reflects the active one-off Outlook integration and offers Reconnect Outlook as a secondary action rather than implying sync is not enabled. Admin lesson details distinguish Not synced, Synced to Outlook, Updated in Outlook and Cancelled in Outlook using existing outlook_event_id/outlook_updated_at/lifecycle data. Compact calendar cloud badges gain descriptive hover/accessibility labels. Student UI remains free of Outlook technical status. No database or Microsoft permission changes are required.
+Production hardening: overlapping lessons in the same weekday render in Outlook-style side-by-side columns while keeping true vertical start/end positions. Two simultaneous lessons use halves and three use thirds. Non-overlapping lessons remain full-width. V5.17 Outlook status and one-off create/update/cancel sync, lesson materials, privacy, full-day scrolling and hidden-lesson indicators are preserved.
