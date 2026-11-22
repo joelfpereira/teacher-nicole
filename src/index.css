@@ -77,3 +77,21 @@ button.recentLessonCard{appearance:none;width:100%;font:inherit;color:inherit;te
 
 /* V5.18.1 material type selector */
 .materialTypeSwitch{display:flex;gap:6px;padding:4px;background:#f1f5f9;border-radius:12px;width:max-content}.materialTypeSwitch button{border:0;background:transparent;color:#64748b;padding:8px 13px;border-radius:9px;font-weight:700}.materialTypeSwitch button.active{background:#fff;color:#166534;box-shadow:0 1px 4px rgba(15,23,42,.12)}@media(max-width:700px){.materialTypeSwitch{width:100%}.materialTypeSwitch button{flex:1}}
+
+
+/* V1.1 UX refinements */
+.photoWrap{padding:12px;border-radius:34px}
+.photoWrap img{height:auto;aspect-ratio:16/10;object-position:center;display:block}
+.materialRow>div,.linkedMaterial span,.materialOverviewBody{min-width:0;max-width:100%}
+.materialRow h3,.materialRow p,.linkedMaterial strong,.linkedMaterial small,.materialOverviewBody strong,.materialOverviewBody span{
+  overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow-wrap:anywhere;word-break:break-word
+}
+.dayColumn{cursor:default}
+.dayColumn:active{cursor:default}
+@media(max-width:800px){
+  .hero{padding-top:36px}
+  .photoWrap img{height:auto;aspect-ratio:4/3;object-position:68% center}
+  .materialRow{width:100%;min-width:0}
+  .materialRow>div{width:100%}
+  .materialRow .pill{flex:0 0 auto}
+}

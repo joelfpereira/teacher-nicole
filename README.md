@@ -1,7 +1,12 @@
-# Teacher Nicole v1.0
+## Teacher Nicole v1.1
 
-First production release, promoted from the validated V5.18.2 release-candidate baseline.
+Built from the validated v1.0 production baseline.
 
-Includes secure admin/student authentication and Supabase RLS isolation; student management; lesson summaries, homework and private teacher notes; file and external-link materials; lesson-material linking; student learning dashboard; full-day Outlook-style weekly calendar with hidden-lesson indicators and overlap handling; local weekly/biweekly recurrence; clean lesson-form lifecycle; and one-off Outlook create/update/cancel synchronization.
+### UX refinements
+- Desktop calendar double-click on an empty time slot opens New lesson with the clicked date and nearest 15-minute start time.
+- Mobile calendar initially scrolls horizontally to center the current date.
+- Long material and PDF names are constrained to two lines with ellipsis.
+- Teacher Nicole TN app branding for iOS, Android/PWA and browser favicon.
+- Teaching-focused homepage hero visual.
 
-Recurring-series Outlook synchronization is intentionally deferred beyond v1.0.
+All v1.0 authentication, Supabase isolation, lesson lifecycle, materials and one-off Outlook create/update/cancel behavior are preserved. Recurring-series Outlook synchronization remains deferred.
