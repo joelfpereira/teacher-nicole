@@ -1,3 +1,3 @@
-# Teacher Nicole v1.3.1
+# Teacher Nicole v1.4
 
-Lesson History month-navigation refinement on the validated v1.3 baseline. Replaces the native/manual month input with previous/next month arrows, a readable month/year button, Today shortcut, and compact calendar-style month/year picker. Future months are disabled. Student filtering, billing totals, mark billed/not billed, student archiving/restoration and all existing v1.3 behavior are preserved.
+Public homepage repositioning on the validated v1.3.1 baseline. The homepage now leads with communication confidence, first-language American English, and tailored pathways for younger learners, everyday English and professional communication. Adds richer approach, audience, lesson-experience, About Nicole, student-portal and closing CTA sections while preserving the established forest-green/cream/orange visual identity and uploaded Nicole/brand assets. All authenticated Nicole’s Space/student/calendar/history/billing/archive/materials/Outlook behavior remains unchanged from v1.3.1.
