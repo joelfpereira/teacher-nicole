@@ -1,3 +1,3 @@
-# Teacher Nicole v1.4.2
+# Teacher Nicole v1.4.3
 
-Minimal public-homepage refinement on v1.4.1. Combines the former approach/audience sections into one concise Communication comes first section with three same-row audience cards, removes the second Nicole image and uses a centered text-only Meet Nicole section, compresses the between-lessons area into a single icon strip, and keeps only five substantive sections including the hero/contact flow. Public Login wording remains simplified. All authenticated v1.3.1 functionality remains unchanged.
+Two focused public-homepage layout refinements on v1.4.2. The three English that fits you audience cards are forced to remain in one horizontal row across normal desktop/laptop widths and only stack below 740 px. Meet Nicole is tightened into one cohesive left-aligned reading block, combining the descriptive paragraphs and replacing the detached quote box with a subtle emphasized closing sentence. All wording and authenticated functionality remain unchanged.
