@@ -1,12 +1,7 @@
-## Teacher Nicole v1.1
+# Teacher Nicole v1.2
 
-Built from the validated v1.0 production baseline.
+Lesson History & Billing Overview release, built from the validated v1.1 baseline.
 
-### UX refinements
-- Desktop calendar double-click on an empty time slot opens New lesson with the clicked date and nearest 15-minute start time.
-- Mobile calendar initially scrolls horizontally to center the current date.
-- Long material and PDF names are constrained to two lines with ellipsis.
-- Teacher Nicole TN app branding for iOS, Android/PWA and browser favicon.
-- Teaching-focused homepage hero visual.
+Nicole’s Space now includes a Lesson History destination with month/student filters, completed lesson counts, teaching hours, billed and not-billed hours, cancelled-lesson context, lesson summaries, per-student monthly history, and Billed / Not billed controls using lessons.billing_status and billed_at.
 
-All v1.0 authentication, Supabase isolation, lesson lifecycle, materials and one-off Outlook create/update/cancel behavior are preserved. Recurring-series Outlook synchronization remains deferred.
+All v1.1 calendar/mobile/branding refinements and the existing authentication, RLS isolation, materials, lesson lifecycle and one-off Outlook create/update/cancel behavior are preserved. Recurring-series Outlook synchronization remains deferred.
