@@ -1,3 +1,3 @@
-# Teacher Nicole v1.4
+# Teacher Nicole v1.4.1
 
-Public homepage repositioning on the validated v1.3.1 baseline. The homepage now leads with communication confidence, first-language American English, and tailored pathways for younger learners, everyday English and professional communication. Adds richer approach, audience, lesson-experience, About Nicole, student-portal and closing CTA sections while preserving the established forest-green/cream/orange visual identity and uploaded Nicole/brand assets. All authenticated Nicole’s Space/student/calendar/history/billing/archive/materials/Outlook behavior remains unchanged from v1.3.1.
+Concise public-homepage refinement on the v1.4 baseline, optimized for a 1–2 minute read. The audience section is compressed into three same-row cards, the redundant Personal Lessons section is removed, About and student-space copy are shortened, hero copy is tightened, and public-facing Student login wording becomes Login. The communication-first/American-English positioning and established green/cream/orange identity remain. All authenticated v1.3.1 functionality is unchanged.
